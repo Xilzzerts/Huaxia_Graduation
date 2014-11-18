@@ -1,5 +1,5 @@
 Huaxia_Graduation
 =================
-毕设
-2010 SoftwareEngineering
-Zirconi
+- 毕设
+- 2010 SoftwareEngineering
+- By Zirconi
