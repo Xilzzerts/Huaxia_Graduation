@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+http://zirconi.duapp.com/http://zirconi.duapp.com/http://zirconi.duapp.com/
+    <ListPreference
+        android:dialogTitle="选择服务器"
+        android:entries="@array/sa_serverlist"
+        android:entryValues="@array/sa_serverlistentity"
+        android:key="serveraddr"
+        android:title="服务器列表" android:summary="选择服务器" android:enabled="true" android:negativeButtonText="取消"/>
+    <ListPreference android:title="教务服务器列表" android:summary="选择教务服务器" android:dialogTitle="教务服务器列表" android:negativeButtonText="取消" android:entries="@array/sa_academiclist" android:entryValues="@array/sa_academiclistentity" android:key="academiccode"/>
+  <!-- <CheckBoxPreference android:summaryOn="记住登陆状态" android:summaryOff="不记住登陆状态" android:title="记住登陆状态" android:key="rememberlogin"/>-->
+
+</PreferenceScreen>

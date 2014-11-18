@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+     xmlns:huaxiaclient="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/timetable_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/timetable"
+        android:title="@string/action_settings"
+        huaxiaclient:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/transcript_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/transcript"
+        android:title="@string/action_settings"
+        huaxiaclient:showAsAction="ifRoom" />
+        
+</menu>
